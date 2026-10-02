@@ -1,0 +1,29 @@
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Temporary LLM outputs and local exports
+llm/outputs/*
+!llm/outputs/README.md
+*.tmp
+*.log
+
+# Common system files
+.DS_Store
+Thumbs.db
+
+# Language/build artifacts (extend for a lab or project)
+node_modules/
+__pycache__/
+.venv/
+dist/
+build/

@@ -1,0 +1,51 @@
+name: Knowledge lint
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  repository-hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check for likely secrets
+        shell: bash
+        run: |
+          if git grep -nEI '(api[_-]?key|secret|password|token)[[:space:]]*[:=][[:space:]]*[^ $]' -- ':!AI_POLICY.md' ':!.gitignore'; then
+            echo 'Possible secret found. Remove it and use local environment variables.'
+            exit 1
+          fi
+      - name: Protect existing raw evidence
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            base="origin/${{ github.base_ref }}"
+          else
+            base="HEAD^"
+          fi
+          if git rev-parse "$base" >/dev/null 2>&1; then
+            changed=$(git diff --name-status "$base" HEAD -- raw/ | awk '$1 !~ /^A/ {print}')
+            if [ -n "$changed" ]; then
+              echo 'raw/ is immutable. Add a correction outside raw/ or a new dated file instead:'
+              echo "$changed"
+              exit 1
+            fi
+          fi
+      - name: Check wiki provenance fields
+        shell: bash
+        run: |
+          failed=0
+          while IFS= read -r file; do
+            if ! grep -q '^sources:' "$file"; then
+              echo "Missing sources frontmatter: $file"
+              failed=1
+            fi
+          done < <(find wiki -type f -name '*.md' ! -name 'README.md')
+          exit "$failed"
