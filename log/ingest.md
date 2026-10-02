@@ -1,5 +1,6 @@
 # Ingest log
 
-| Date | Item | Raw location / URL | Source card | Added by | Rights / note |
-| --- | --- | --- | --- | --- | --- |
-| YYYY-MM-DD | _title_ | `raw/...` or URL | [[source-slug]] | _name_ | _public / private / link only_ |
+| Date       | Item | Raw location / URL | Source card                                | Added by | Rights / note |
+| ---------- | ---- | ------------------ | ------------------------------------------ | -------- | ------------- |
+| 2026-10-02 | ВвИТ | raw/lecture        | [[../wiki/sources/Катра ВвИТ\|Катра ВвИТ]] | Margo    | _public       |
+|            |      |                    |                                            |          |               |
