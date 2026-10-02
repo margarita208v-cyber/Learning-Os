@@ -1,4 +1,4 @@
-# AI usage log
+# AI журнал
 
 | Date | Work | Purpose | Tool/model | Human contribution and verification | Disclosure needed? |
 | --- | --- | --- | --- | --- | --- |
