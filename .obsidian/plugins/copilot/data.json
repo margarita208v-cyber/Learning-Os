@@ -405,6 +405,20 @@
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "addedAt": 1791028584596,
       "apiKeyKeychainId": null
+    },
+    "e4c77025-8abf-444c-b172-360873a088ff": {
+      "providerType": "openai-compatible",
+      "displayName": "Ollama Cloud",
+      "baseUrl": "https://ollama.com/v1",
+      "enableCors": false,
+      "requiresApiKey": true,
+      "origin": {
+        "kind": "byok",
+        "catalogProviderId": "ollama-cloud"
+      },
+      "providerId": "e4c77025-8abf-444c-b172-360873a088ff",
+      "addedAt": 1791032344646,
+      "apiKeyKeychainId": "copilot-vdc464587-provider-e4c77025-8abf-444c-b172-360873a088ff"
     }
   },
   "configuredModels": [
@@ -506,6 +520,36 @@
       },
       "configuredModelId": "a1e0fc60-adc8-466f-b191-b30e2ab73d7f",
       "configuredAt": 1791032298582
+    },
+    {
+      "configuredModelId": "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b",
+      "providerId": "e4c77025-8abf-444c-b172-360873a088ff",
+      "info": {
+        "id": "gemma4:31b",
+        "displayName": "gemma4:31b",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 262144,
+          "output": 262144
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-02",
+        "cost": {
+          "input": 0.14,
+          "output": 0.4,
+          "cacheRead": 0.05
+        }
+      },
+      "configuredAt": 1791032655791
     }
   ],
   "backends": {
@@ -513,11 +557,14 @@
       "enabledModels": [
         "1fd1a275-46c9-4648-9f0b-d96c228765f9",
         "19f9ead1-a2f9-4b88-933e-9ba8c444d3b1",
-        "3bf1cddc-44d5-4edf-b7ca-b959526d8998"
+        "3bf1cddc-44d5-4edf-b7ca-b959526d8998",
+        "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b"
       ]
     },
     "chat": {
-      "enabledModels": []
+      "enabledModels": [
+        "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b"
+      ]
     }
   },
   "copilotPlusCatalog": {
