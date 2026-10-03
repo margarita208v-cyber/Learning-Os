@@ -504,8 +504,8 @@
         "id": "ollama/qwen2.5:7b",
         "displayName": "ollama/qwen2.5:7b"
       },
-      "configuredModelId": "4c759968-4d52-46fc-ae7e-203c06feb89f",
-      "configuredAt": 1791030842469
+      "configuredModelId": "a1e0fc60-adc8-466f-b191-b30e2ab73d7f",
+      "configuredAt": 1791032298582
     }
   ],
   "backends": {
@@ -515,6 +515,9 @@
         "19f9ead1-a2f9-4b88-933e-9ba8c444d3b1",
         "3bf1cddc-44d5-4edf-b7ca-b959526d8998"
       ]
+    },
+    "chat": {
+      "enabledModels": []
     }
   },
   "copilotPlusCatalog": {
