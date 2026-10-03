@@ -497,6 +497,15 @@
       },
       "configuredModelId": "0a2eb97b-c055-4e5f-beaa-c279409e4b22",
       "configuredAt": 1791028587667
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "ollama/qwen2.5:7b",
+        "displayName": "ollama/qwen2.5:7b"
+      },
+      "configuredModelId": "4c759968-4d52-46fc-ae7e-203c06feb89f",
+      "configuredAt": 1791030842469
     }
   ],
   "backends": {
