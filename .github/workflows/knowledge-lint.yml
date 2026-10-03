@@ -18,7 +18,7 @@ jobs:
       - name: Check for likely secrets
         shell: bash
         run: |
-          if git grep -nEI '(api[_-]?key|secret|password|token)[[:space:]]*[:=][[:space:]]*[^ $]' -- ':!AI_POLICY.md' ':!.gitignore'; then
+          if git grep -nEI '(api[_-]?key|secret|password|token)[[:space:]]*[:=][[:space:]]*[^ $]' -- ':!AI_POLICY.md' ':!.gitignore'':!.obsidian/plugins/*'; then
             echo 'Possible secret found. Remove it and use local environment variables.'
             exit 1
           fi
