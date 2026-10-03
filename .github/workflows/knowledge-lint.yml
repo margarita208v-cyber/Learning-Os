@@ -51,10 +51,20 @@ jobs:
         shell: bash
         run: |
           failed=0
+          # ИСКЛЮЧЕНИЯ (перечислены через \ в find):
+          #   ! -name 'README.md'               — README не требует провенанса
+          #   ! -path 'wiki/open-questions.md'  — служебный файл со списком вопросов
+          #
+          # ПРОВЕРКА: принимаем любой из двух вариантов оформления источников:
+          #   1) YAML frontmatter с полем sources:
+          #   2) Заголовок "# Источники" или "## Источники" в теле документа
+          # Это даёт гибкость для файлов, оформленных вручную, без YAML.
           while IFS= read -r file; do
-            if ! grep -q '^sources:' "$file"; then
-              echo "Missing sources frontmatter: $file"
+            if ! grep -qE '^sources:|^#+ *(Источники|Sources)' "$file"; then
+              echo "Missing sources frontmatter or '# Источники' section: $file"
               failed=1
             fi
-          done < <(find wiki -type f -name '*.md' ! -name 'README.md')
+          done < <(find wiki -type f -name '*.md' \
+                     ! -name 'README.md' \
+                     ! -path 'wiki/open-questions.md')
           exit "$failed"
