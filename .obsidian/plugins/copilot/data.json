@@ -513,15 +513,6 @@
       "configuredAt": 1791028587667
     },
     {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "ollama/qwen2.5:7b",
-        "displayName": "ollama/qwen2.5:7b"
-      },
-      "configuredModelId": "a1e0fc60-adc8-466f-b191-b30e2ab73d7f",
-      "configuredAt": 1791032298582
-    },
-    {
       "configuredModelId": "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b",
       "providerId": "e4c77025-8abf-444c-b172-360873a088ff",
       "info": {
@@ -550,6 +541,15 @@
         }
       },
       "configuredAt": 1791032655791
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "ollama/qwen2.5:7b",
+        "displayName": "ollama/qwen2.5:7b"
+      },
+      "configuredModelId": "1ba852f0-5471-4114-915a-60a2d6663948",
+      "configuredAt": 1791126391381
     }
   ],
   "backends": {
