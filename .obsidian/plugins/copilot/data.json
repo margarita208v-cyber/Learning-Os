@@ -548,8 +548,8 @@
         "id": "ollama/qwen2.5:7b",
         "displayName": "ollama/qwen2.5:7b"
       },
-      "configuredModelId": "1ba852f0-5471-4114-915a-60a2d6663948",
-      "configuredAt": 1791126391381
+      "configuredModelId": "1d406c6c-cad1-4a95-9807-89965bb4d9ce",
+      "configuredAt": 1791222301572
     }
   ],
   "backends": {
