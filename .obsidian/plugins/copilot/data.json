@@ -367,7 +367,7 @@
     "debugFullFrames": true,
     "notificationSound": true,
     "notificationSoundId": "piano",
-    "welcomeDismissed": false,
+    "welcomeDismissed": true,
     "skills": {
       "folder": "copilot/skills",
       "builtinPreferences": {
