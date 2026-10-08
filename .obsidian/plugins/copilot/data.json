@@ -559,6 +559,15 @@
       },
       "configuredModelId": "57734895-e07d-4273-8127-1189c558c60e",
       "configuredAt": 1791468589003
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "opencode/step-5-preview-free",
+        "displayName": "opencode/Step 5 Preview Free"
+      },
+      "configuredModelId": "1817cc18-f251-40a5-a17c-e395ad01d6d0",
+      "configuredAt": 1791470005046
     }
   ],
   "backends": {
