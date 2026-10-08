@@ -3,5 +3,6 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": false,
   "attachmentFolderPath": "raw/assets",
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

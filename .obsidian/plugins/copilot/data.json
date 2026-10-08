@@ -545,11 +545,20 @@
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
+        "id": "opencode/exo-free",
+        "displayName": "opencode/Exo Free"
+      },
+      "configuredModelId": "58ebe0a1-2f69-4dfb-9364-e1f678ab4530",
+      "configuredAt": 1791468500835
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
         "id": "ollama/qwen2.5:7b",
         "displayName": "ollama/qwen2.5:7b"
       },
-      "configuredModelId": "da060d1d-6418-4a9e-a752-81e1543aef0d",
-      "configuredAt": 1791360704690
+      "configuredModelId": "57734895-e07d-4273-8127-1189c558c60e",
+      "configuredAt": 1791468589003
     }
   ],
   "backends": {
