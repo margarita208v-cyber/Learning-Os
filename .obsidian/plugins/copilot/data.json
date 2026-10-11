@@ -317,7 +317,7 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": null,
+  "lastDismissedVersion": "4.0.14",
   "lastShownStartupVersion": "4.0.14",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
@@ -550,6 +550,15 @@
       },
       "configuredModelId": "1817cc18-f251-40a5-a17c-e395ad01d6d0",
       "configuredAt": 1791470005046
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "ollama/qwen2.5:7b",
+        "displayName": "ollama/qwen2.5:7b"
+      },
+      "configuredModelId": "823aea78-d23a-4cac-b380-7de9c7b112ee",
+      "configuredAt": 1791732933555
     }
   ],
   "backends": {
