@@ -434,15 +434,6 @@
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
-        "id": "opencode/ling-3.0-flash-fin-free",
-        "displayName": "opencode/Ling 3.0 Flash Fin Free"
-      },
-      "configuredModelId": "19f9ead1-a2f9-4b88-933e-9ba8c444d3b1",
-      "configuredAt": 1791028584642
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
         "id": "opencode/longcat-2.5-preview-free",
         "displayName": "opencode/LongCat 2.5 Preview Free"
       },
@@ -495,15 +486,6 @@
       "configuredAt": 1791028584650
     },
     {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/ling-3.1-flash-free",
-        "displayName": "opencode/Ling 3.1 Flash Free"
-      },
-      "configuredModelId": "0a2eb97b-c055-4e5f-beaa-c279409e4b22",
-      "configuredAt": 1791028587667
-    },
-    {
       "configuredModelId": "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b",
       "providerId": "e4c77025-8abf-444c-b172-360873a088ff",
       "info": {
@@ -536,15 +518,6 @@
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
-        "id": "opencode/exo-free",
-        "displayName": "opencode/Exo Free"
-      },
-      "configuredModelId": "58ebe0a1-2f69-4dfb-9364-e1f678ab4530",
-      "configuredAt": 1791468500835
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
         "id": "opencode/step-5-preview-free",
         "displayName": "opencode/Step 5 Preview Free"
       },
@@ -554,18 +527,17 @@
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
-        "id": "ollama/qwen2.5:7b",
-        "displayName": "ollama/qwen2.5:7b"
+        "id": "opencode/cat-jam-free",
+        "displayName": "opencode/Cat Jam Free"
       },
-      "configuredModelId": "823aea78-d23a-4cac-b380-7de9c7b112ee",
-      "configuredAt": 1791732933555
+      "configuredModelId": "e83cd4f6-6cb9-4b5a-b824-489b6836c19a",
+      "configuredAt": 1792006648470
     }
   ],
   "backends": {
     "opencode": {
       "enabledModels": [
         "1fd1a275-46c9-4648-9f0b-d96c228765f9",
-        "19f9ead1-a2f9-4b88-933e-9ba8c444d3b1",
         "3bf1cddc-44d5-4edf-b7ca-b959526d8998",
         "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b"
       ]
