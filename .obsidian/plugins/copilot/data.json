@@ -532,6 +532,24 @@
       },
       "configuredModelId": "e83cd4f6-6cb9-4b5a-b824-489b6836c19a",
       "configuredAt": 1792006648470
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "opencode/deepseek-v4.1-flash-free",
+        "displayName": "opencode/DeepSeek V4.1 Flash Free"
+      },
+      "configuredModelId": "a96c1d18-b9c5-43c2-8afb-97d54c3b6419",
+      "configuredAt": 1792097751978
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "opencode/nemotron-3.5-super-vl-free",
+        "displayName": "opencode/Nemotron 3.5 Super VL Free"
+      },
+      "configuredModelId": "5691568c-d588-489e-8347-658b83d434b0",
+      "configuredAt": 1792097752005
     }
   ],
   "backends": {
