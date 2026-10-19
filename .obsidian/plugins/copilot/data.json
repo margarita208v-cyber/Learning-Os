@@ -452,15 +452,6 @@
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
-        "id": "opencode/muse-spark-1.3-contributor-free",
-        "displayName": "opencode/Muse Spark 1.3 Free"
-      },
-      "configuredModelId": "c2475785-a8f2-4563-acf1-16431844c6ca",
-      "configuredAt": 1791028584649
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
         "id": "opencode/nemotron-3-ultra-free",
         "displayName": "opencode/Nemotron 3 Ultra Free"
       },
@@ -518,24 +509,6 @@
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
-        "id": "opencode/step-5-preview-free",
-        "displayName": "opencode/Step 5 Preview Free"
-      },
-      "configuredModelId": "1817cc18-f251-40a5-a17c-e395ad01d6d0",
-      "configuredAt": 1791470005046
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/cat-jam-free",
-        "displayName": "opencode/Cat Jam Free"
-      },
-      "configuredModelId": "e83cd4f6-6cb9-4b5a-b824-489b6836c19a",
-      "configuredAt": 1792006648470
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
         "id": "opencode/deepseek-v4.1-flash-free",
         "displayName": "opencode/DeepSeek V4.1 Flash Free"
       },
@@ -550,6 +523,24 @@
       },
       "configuredModelId": "5691568c-d588-489e-8347-658b83d434b0",
       "configuredAt": 1792097752005
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "opencode/beam-free",
+        "displayName": "opencode/Beam Free"
+      },
+      "configuredModelId": "0d4a38fe-44bd-4d56-a3dd-26de695daf85",
+      "configuredAt": 1792403278302
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "opencode/glm-5.3-flash-free",
+        "displayName": "opencode/GLM-5.3-Flash Free"
+      },
+      "configuredModelId": "4a6fa62f-ff17-4b1e-8626-eedb71c85b6b",
+      "configuredAt": 1792403278306
     }
   ],
   "backends": {
