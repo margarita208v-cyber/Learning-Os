@@ -541,6 +541,15 @@
       },
       "configuredModelId": "b8d880df-e939-48bb-b6ea-25aba7067794",
       "configuredAt": 1792601910405
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "opencode/flint-40b-free",
+        "displayName": "opencode/Flint 40B Free"
+      },
+      "configuredModelId": "9a053ad8-fbd1-471a-b007-78028a46b87c",
+      "configuredAt": 1792602815008
     }
   ],
   "backends": {
