@@ -468,15 +468,6 @@
       "configuredAt": 1791028584650
     },
     {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/space-bunny-free",
-        "displayName": "opencode/Space Bunny Free"
-      },
-      "configuredModelId": "9fc43cbb-c938-48cd-8058-d50fbf4441bd",
-      "configuredAt": 1791028584650
-    },
-    {
       "configuredModelId": "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b",
       "providerId": "e4c77025-8abf-444c-b172-360873a088ff",
       "info": {
@@ -541,6 +532,15 @@
       },
       "configuredModelId": "4a6fa62f-ff17-4b1e-8626-eedb71c85b6b",
       "configuredAt": 1792403278306
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "opencode/minimax-m3.1-flash-free",
+        "displayName": "opencode/MiniMax M3.1 Flash Free"
+      },
+      "configuredModelId": "b8d880df-e939-48bb-b6ea-25aba7067794",
+      "configuredAt": 1792601910405
     }
   ],
   "backends": {
