@@ -3,9 +3,9 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:raw ",
@@ -18,14 +18,14 @@
       "query": "path:wiki  ",
       "color": {
         "a": 1,
-        "rgb": 14069084
+        "rgb": 14725458
       }
     },
     {
-      "query": "path:log ",
+      "query": "path:log  ",
       "color": {
         "a": 1,
-        "rgb": 11392604
+        "rgb": 11657298
       }
     }
   ],
@@ -34,11 +34,11 @@
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 0.839284026465028,
   "lineSizeMultiplier": 2.65478497164461,
-  "collapse-forces": true,
-  "centerStrength": 0.400401701323251,
-  "repelStrength": 14.1819529368168,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 14.3723236421005,
   "linkStrength": 1,
-  "linkDistance": 258,
-  "scale": 0.608232607364491,
-  "close": true
+  "linkDistance": 266,
+  "scale": 0.33305379246516414,
+  "close": false
 }
