@@ -318,7 +318,7 @@
   "inlineEditCommands": [],
   "projectList": [],
   "lastDismissedVersion": "4.0.14",
-  "lastShownStartupVersion": "4.0.15",
+  "lastShownStartupVersion": "4.0.16",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -435,7 +435,7 @@
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
         "id": "opencode/longcat-2.5-preview-free",
-        "displayName": "opencode/LongCat 2.5 Preview Free"
+        "displayName": "opencode/longcat-2.5-preview-free"
       },
       "configuredModelId": "3bf1cddc-44d5-4edf-b7ca-b959526d8998",
       "configuredAt": 1791028584644
@@ -532,15 +532,6 @@
       },
       "configuredModelId": "4a6fa62f-ff17-4b1e-8626-eedb71c85b6b",
       "configuredAt": 1792403278306
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/minimax-m3.1-flash-free",
-        "displayName": "opencode/MiniMax M3.1 Flash Free"
-      },
-      "configuredModelId": "b8d880df-e939-48bb-b6ea-25aba7067794",
-      "configuredAt": 1792601910405
     },
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
