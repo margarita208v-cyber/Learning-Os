@@ -434,29 +434,11 @@
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
-        "id": "opencode/longcat-2.5-preview-free",
-        "displayName": "opencode/longcat-2.5-preview-free"
-      },
-      "configuredModelId": "3bf1cddc-44d5-4edf-b7ca-b959526d8998",
-      "configuredAt": 1791028584644
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
         "id": "opencode/mimo-v2.6-flash-free",
         "displayName": "opencode/MiMo-V2.6-Flash Free"
       },
       "configuredModelId": "ff033bfa-a2ea-4930-9d2b-1f7cf808e4d4",
       "configuredAt": 1791028584648
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/nemotron-3-ultra-free",
-        "displayName": "opencode/Nemotron 3 Ultra Free"
-      },
-      "configuredModelId": "7a0a7d28-0289-4d0c-96af-5b4a25fca67b",
-      "configuredAt": 1791028584649
     },
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
@@ -547,7 +529,6 @@
     "opencode": {
       "enabledModels": [
         "1fd1a275-46c9-4648-9f0b-d96c228765f9",
-        "3bf1cddc-44d5-4edf-b7ca-b959526d8998",
         "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b"
       ]
     },
