@@ -1,5 +1,5 @@
 {
-  "userId": "a0e039e3-ee5b-47c3-86b1-4bea67ab16f6",
+  "userId": "9a43d057-d64f-493e-b239-f8129c59c03a",
   "isPaidUser": false,
   "isPlusUser": false,
   "entitlementToken": "",
@@ -17,7 +17,7 @@
   "deepseekApiKey": "",
   "siliconflowApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
+  "defaultModelKey": "",
   "contextTurns": 15,
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
@@ -42,273 +42,7 @@
   "maxSourceChunks": 30,
   "enableInlineCitations": true,
   "groqApiKey": "",
-  "activeModels": [
-    {
-      "name": "copilot-plus-flash",
-      "provider": "copilot-plus",
-      "enabled": true,
-      "isBuiltIn": true,
-      "core": true,
-      "plusExclusive": true,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "google/gemini-2.5-flash",
-      "provider": "openrouterai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "core": true,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "gpt-5.5",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "core": true,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "gpt-5.4-mini",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "core": true,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "google/gemini-3.5-flash",
-      "provider": "openrouterai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision",
-        "reasoning"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "claude-sonnet-4-6",
-      "provider": "anthropic",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision",
-        "reasoning"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "gemini-3.5-flash",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision",
-        "reasoning"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "gemini-3.1-flash-lite",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "gemini-2.5-flash",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "google/gemini-3.1-pro-preview",
-      "provider": "openrouterai",
-      "enabled": false,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision",
-        "reasoning"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "google/gemini-2.5-pro",
-      "provider": "openrouterai",
-      "enabled": false,
-      "isBuiltIn": true,
-      "core": false,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "openai/gpt-5.5",
-      "provider": "openrouterai",
-      "enabled": false,
-      "isBuiltIn": true,
-      "core": false,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "openai/gpt-5.4-mini",
-      "provider": "openrouterai",
-      "enabled": false,
-      "isBuiltIn": true,
-      "core": false,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "grok-4.3",
-      "provider": "xai",
-      "enabled": false,
-      "isBuiltIn": true,
-      "core": false,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "x-ai/grok-4.3",
-      "provider": "openrouterai",
-      "enabled": false,
-      "isBuiltIn": true,
-      "core": false,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "gpt-4.1",
-      "provider": "openai",
-      "enabled": false,
-      "isBuiltIn": true,
-      "core": false,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "gpt-4.1-mini",
-      "provider": "openai",
-      "enabled": false,
-      "isBuiltIn": true,
-      "core": false,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "claude-opus-4-7",
-      "provider": "anthropic",
-      "enabled": false,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision",
-        "reasoning"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "claude-haiku-4-5",
-      "provider": "anthropic",
-      "enabled": false,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision",
-        "reasoning"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "gemini-3.1-pro-preview",
-      "provider": "google",
-      "enabled": false,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision",
-        "reasoning"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "gemini-2.5-pro",
-      "provider": "google",
-      "enabled": false,
-      "isBuiltIn": true,
-      "capabilities": [
-        "vision"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "deepseek-chat",
-      "provider": "deepseek",
-      "enabled": false,
-      "isBuiltIn": true,
-      "apiKey": ""
-    },
-    {
-      "name": "deepseek-reasoner",
-      "provider": "deepseek",
-      "enabled": false,
-      "isBuiltIn": true,
-      "capabilities": [
-        "reasoning"
-      ],
-      "apiKey": ""
-    },
-    {
-      "name": "deepseek-ai/DeepSeek-V3",
-      "provider": "siliconflow",
-      "enabled": false,
-      "isBuiltIn": false,
-      "baseUrl": "https://api.siliconflow.com/v1",
-      "apiKey": ""
-    },
-    {
-      "name": "deepseek-ai/DeepSeek-R1",
-      "provider": "siliconflow",
-      "enabled": false,
-      "isBuiltIn": false,
-      "baseUrl": "https://api.siliconflow.com/v1",
-      "capabilities": [
-        "reasoning"
-      ],
-      "apiKey": ""
-    }
-  ],
+  "activeModels": [],
   "lexicalSearchRamLimit": 100,
   "promptUsageTimestamps": {},
   "promptSortStrategy": "timestamp",
@@ -317,8 +51,8 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": "4.0.16",
-  "lastShownStartupVersion": "4.0.19",
+  "lastDismissedVersion": null,
+  "lastShownStartupVersion": null,
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -337,7 +71,7 @@
   "parallelApiKey": "",
   "exaApiKey": "",
   "supadataApiKey": "",
-  "enableMiyoDocumentProcessing": false,
+  "enableMiyoDocumentProcessing": true,
   "enableLexicalBoosts": true,
   "suggestedDefaultCommands": false,
   "autonomousAgentEnabledToolIds": [
@@ -379,207 +113,56 @@
         },
         "copilot-web-fetch": {
           "disabled": true
-        }
-      }
-    },
-    "deviceProfiles": {
-      "2970b110-365f-4370-ad0e-c6543d674e8c": {
-        "opencode": {
-          "binaryPath": "C:\\Users\\elena\\.obsidian-copilot\\opencode\\2.0.32\\bin\\opencode.exe",
-          "binaryVersion": "2.0.32",
-          "binarySource": "managed",
-          "probeSessionId": "ses_efe60bccfffel17vEgxfN4egEf"
+        },
+        "obsidian-bases": {
+          "disabledAgents": [
+            "claude"
+          ]
+        },
+        "json-canvas": {
+          "disabledAgents": [
+            "claude",
+            "codex"
+          ]
         }
       }
     }
   },
   "providers": {
-    "43f8109f-d654-4f1e-9bce-e93c27733111": {
+    "0811a6c2-aab4-4b9e-a2c4-47d431ce7fe8": {
       "providerType": "openai-compatible",
-      "displayName": "opencode",
-      "origin": {
-        "kind": "agent",
-        "agentType": "opencode"
-      },
-      "requiresApiKey": false,
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "addedAt": 1791028584596,
-      "apiKeyKeychainId": null
-    },
-    "e4c77025-8abf-444c-b172-360873a088ff": {
-      "providerType": "openai-compatible",
-      "displayName": "Ollama Cloud",
-      "baseUrl": "https://ollama.com/v1",
+      "displayName": "qwen2.5:7b",
+      "baseUrl": "http://localhost:11434/v1",
       "enableCors": false,
-      "requiresApiKey": true,
+      "requiresApiKey": false,
       "origin": {
-        "kind": "byok",
-        "catalogProviderId": "ollama-cloud"
+        "kind": "byok"
       },
-      "providerId": "e4c77025-8abf-444c-b172-360873a088ff",
-      "addedAt": 1791032344646,
-      "apiKeyKeychainId": "copilot-vdc464587-provider-ollama-cloud-api-key"
+      "providerId": "0811a6c2-aab4-4b9e-a2c4-47d431ce7fe8",
+      "addedAt": 1794428110637,
+      "apiKeyKeychainId": null
     }
   },
   "configuredModels": [
     {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "configuredModelId": "9445c925-a6e5-4fb2-a9da-252e04162a32",
+      "providerId": "0811a6c2-aab4-4b9e-a2c4-47d431ce7fe8",
       "info": {
-        "id": "opencode/big-pickle",
-        "displayName": "opencode/Big Pickle"
+        "id": "qwen2.5:7b",
+        "displayName": "qwen2.5:7b"
       },
-      "configuredModelId": "1fd1a275-46c9-4648-9f0b-d96c228765f9",
-      "configuredAt": 1791028584641
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/mimo-v2.6-flash-free",
-        "displayName": "opencode/MiMo-V2.6-Flash Free"
-      },
-      "configuredModelId": "ff033bfa-a2ea-4930-9d2b-1f7cf808e4d4",
-      "configuredAt": 1791028584648
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/nemotron-3.5-lightning-free",
-        "displayName": "opencode/Nemotron 3.5 Lightning Free"
-      },
-      "configuredModelId": "c5b987ef-d756-45c4-8fa8-98a376af9a99",
-      "configuredAt": 1791028584650
-    },
-    {
-      "configuredModelId": "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b",
-      "providerId": "e4c77025-8abf-444c-b172-360873a088ff",
-      "info": {
-        "id": "gemma4:31b",
-        "displayName": "gemma4:31b",
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 262144,
-          "output": 262144
-        },
-        "reasoning": true,
-        "toolCall": true,
-        "releaseDate": "2026-04-02",
-        "cost": {
-          "input": 0.14,
-          "output": 0.4,
-          "cacheRead": 0.05
-        }
-      },
-      "configuredAt": 1791032655791
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/deepseek-v4.1-flash-free",
-        "displayName": "opencode/DeepSeek V4.1 Flash Free"
-      },
-      "configuredModelId": "a96c1d18-b9c5-43c2-8afb-97d54c3b6419",
-      "configuredAt": 1792097751978
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/nemotron-3.5-super-vl-free",
-        "displayName": "opencode/Nemotron 3.5 Super VL Free"
-      },
-      "configuredModelId": "5691568c-d588-489e-8347-658b83d434b0",
-      "configuredAt": 1792097752005
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/beam-free",
-        "displayName": "opencode/Beam Free"
-      },
-      "configuredModelId": "0d4a38fe-44bd-4d56-a3dd-26de695daf85",
-      "configuredAt": 1792403278302
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/glm-5.3-flash-free",
-        "displayName": "opencode/GLM-5.3-Flash Free"
-      },
-      "configuredModelId": "4a6fa62f-ff17-4b1e-8626-eedb71c85b6b",
-      "configuredAt": 1792403278306
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/flint-40b-free",
-        "displayName": "opencode/Flint 40B Free"
-      },
-      "configuredModelId": "9a053ad8-fbd1-471a-b007-78028a46b87c",
-      "configuredAt": 1792602815008
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/iceman-free",
-        "displayName": "opencode/Iceman Free"
-      },
-      "configuredModelId": "904cd108-30fb-4c9d-8632-1d8590dce826",
-      "configuredAt": 1794423197253
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/inkling-2-small-free",
-        "displayName": "opencode/Inkling 2 Small Free"
-      },
-      "configuredModelId": "5586f5c6-cd58-4c45-9cfc-027c87339557",
-      "configuredAt": 1794423197282
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/longcat-2.5-free",
-        "displayName": "opencode/LongCat 2.5 Free"
-      },
-      "configuredModelId": "a4a2da8e-d68d-4e2e-a8bc-f3db2b407cab",
-      "configuredAt": 1794423197291
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "opencode/minimax-m3.1-flash-free",
-        "displayName": "opencode/MiniMax M3.1 Flash Free"
-      },
-      "configuredModelId": "c63022f6-b197-476d-bab9-1bd1a8dc3c38",
-      "configuredAt": 1794423197308
-    },
-    {
-      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
-      "info": {
-        "id": "ollama/qwen2.5:7b",
-        "displayName": "ollama/qwen2.5:7b"
-      },
-      "configuredModelId": "5b0483a5-fba3-44bf-93a2-0a40ff409c83",
-      "configuredAt": 1794425424416
+      "configuredAt": 1794428110773
     }
   ],
   "backends": {
-    "opencode": {
-      "enabledModels": [
-        "5b0483a5-fba3-44bf-93a2-0a40ff409c83",
-        "c63022f6-b197-476d-bab9-1bd1a8dc3c38"
-      ]
-    },
     "chat": {
       "enabledModels": [
-        "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b"
+        "9445c925-a6e5-4fb2-a9da-252e04162a32"
+      ]
+    },
+    "opencode": {
+      "enabledModels": [
+        "9445c925-a6e5-4fb2-a9da-252e04162a32"
       ]
     }
   },
@@ -734,8 +317,6 @@
   },
   "connectors": [],
   "customConnectors": [],
-  "autoAddActiveContentToContext": true,
-  "docProcessorBackend": "plus",
   "miyoConnectionMode": "local",
   "_keychainVaultId": "dc464587",
   "settingsVersion": 16
