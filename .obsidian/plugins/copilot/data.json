@@ -573,20 +573,8 @@
   "backends": {
     "opencode": {
       "enabledModels": [
-        "1fd1a275-46c9-4648-9f0b-d96c228765f9",
-        "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b",
         "5b0483a5-fba3-44bf-93a2-0a40ff409c83",
-        "ff033bfa-a2ea-4930-9d2b-1f7cf808e4d4",
-        "c5b987ef-d756-45c4-8fa8-98a376af9a99",
-        "a96c1d18-b9c5-43c2-8afb-97d54c3b6419",
-        "5691568c-d588-489e-8347-658b83d434b0",
-        "0d4a38fe-44bd-4d56-a3dd-26de695daf85",
-        "c63022f6-b197-476d-bab9-1bd1a8dc3c38",
-        "a4a2da8e-d68d-4e2e-a8bc-f3db2b407cab",
-        "5586f5c6-cd58-4c45-9cfc-027c87339557",
-        "4a6fa62f-ff17-4b1e-8626-eedb71c85b6b",
-        "9a053ad8-fbd1-471a-b007-78028a46b87c",
-        "904cd108-30fb-4c9d-8632-1d8590dce826"
+        "c63022f6-b197-476d-bab9-1bd1a8dc3c38"
       ]
     },
     "chat": {
