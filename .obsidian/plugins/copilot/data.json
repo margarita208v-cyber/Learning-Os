@@ -318,7 +318,7 @@
   "inlineEditCommands": [],
   "projectList": [],
   "lastDismissedVersion": "4.0.16",
-  "lastShownStartupVersion": "4.0.18",
+  "lastShownStartupVersion": "4.0.19",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -559,6 +559,15 @@
       },
       "configuredModelId": "c63022f6-b197-476d-bab9-1bd1a8dc3c38",
       "configuredAt": 1794423197308
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "ollama/qwen2.5:7b",
+        "displayName": "ollama/qwen2.5:7b"
+      },
+      "configuredModelId": "bef55e37-f02b-45de-95b0-773c037e2e91",
+      "configuredAt": 1794425173910
     }
   ],
   "backends": {
@@ -639,25 +648,6 @@
         "id": "deepseek-v4-pro",
         "displayName": "DeepSeek V4 Pro",
         "description": "A top-tier model for the hardest reasoning and agentic tasks.",
-        "toolCall": true,
-        "reasoning": true,
-        "reasoningEfforts": [],
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 1048576
-        }
-      },
-      {
-        "id": "deepseek-v4-flash-0731",
-        "displayName": "DeepSeek V4 Flash 0731",
-        "description": "The July 2026 DeepSeek V4 Flash snapshot: fast, cheap, and broadly capable.",
         "toolCall": true,
         "reasoning": true,
         "reasoningEfforts": [],
