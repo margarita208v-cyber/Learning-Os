@@ -178,15 +178,6 @@
     {
       "providerId": "968fb9d6-3adf-4495-bb3b-358068f259c5",
       "info": {
-        "id": "ollama/qwen2.5:7b",
-        "displayName": "ollama/qwen2.5:7b"
-      },
-      "configuredModelId": "765f16a0-f096-46fa-a2c0-4cc2d456b1a5",
-      "configuredAt": 1794429663071
-    },
-    {
-      "providerId": "968fb9d6-3adf-4495-bb3b-358068f259c5",
-      "info": {
         "id": "opencode/beam-free",
         "displayName": "opencode/Beam Free"
       },
@@ -291,6 +282,15 @@
       },
       "configuredModelId": "321d8680-e549-46f4-959b-05d0270d5603",
       "configuredAt": 1794429663081
+    },
+    {
+      "providerId": "968fb9d6-3adf-4495-bb3b-358068f259c5",
+      "info": {
+        "id": "ollama/qwen2.5:7b",
+        "displayName": "ollama/qwen2.5:7b"
+      },
+      "configuredModelId": "1e21cad8-645f-41e1-8ed0-3115af38c057",
+      "configuredAt": 1794432006981
     }
   ],
   "backends": {
@@ -302,7 +302,6 @@
     "opencode": {
       "enabledModels": [
         "c26c95df-d38a-4757-948d-235f60a742c2",
-        "765f16a0-f096-46fa-a2c0-4cc2d456b1a5",
         "81f1a395-5cd3-4517-beb1-7a469a51049a",
         "a143cf03-31e6-4a1a-a923-dcf156d1d22f"
       ]
