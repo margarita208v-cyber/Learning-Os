@@ -30,7 +30,7 @@
   "defaultSaveFolder": "copilot/copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
   "autosaveChat": true,
-  "autoAddActiveContentToContext": true,
+  "autoAttachActiveNote": true,
   "defaultOpenArea": "view",
   "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
@@ -324,8 +324,11 @@
   "enableCustomPromptTemplating": true,
   "enableSelfHostMode": false,
   "enableMiyo": false,
-  "enableMiyoSearchSkill": false,
+  "enableMiyoSearchSkill": true,
   "miyoSearchAll": false,
+  "miyoExtraSearchFolders": [],
+  "miyoSearchMaxResults": 20,
+  "miyoSearchMaxVariants": 2,
   "relevantNotesLiveUpdate": true,
   "miyoServerUrl": "",
   "selfHostSearchProvider": "firecrawl",
@@ -334,7 +337,7 @@
   "parallelApiKey": "",
   "exaApiKey": "",
   "supadataApiKey": "",
-  "docProcessorBackend": "plus",
+  "enableMiyoDocumentProcessing": false,
   "enableLexicalBoosts": true,
   "suggestedDefaultCommands": false,
   "autonomousAgentEnabledToolIds": [
@@ -365,9 +368,9 @@
     "activeBackend": "opencode",
     "backends": {},
     "debugFullFrames": true,
+    "offerFeedbackCards": true,
     "notificationSound": true,
     "notificationSoundId": "piano",
-    "welcomeDismissed": true,
     "skills": {
       "folder": "copilot/skills",
       "builtinPreferences": {
@@ -376,17 +379,14 @@
         },
         "copilot-web-fetch": {
           "disabled": true
-        },
-        "copilot-read-pdf": {
-          "disabled": true
         }
       }
     },
     "deviceProfiles": {
       "2970b110-365f-4370-ad0e-c6543d674e8c": {
         "opencode": {
-          "binaryPath": "C:\\Users\\elena\\.obsidian-copilot\\opencode\\2.0.22\\bin\\opencode.exe",
-          "binaryVersion": "2.0.22",
+          "binaryPath": "C:\\Users\\elena\\.obsidian-copilot\\opencode\\2.0.32\\bin\\opencode.exe",
+          "binaryVersion": "2.0.32",
           "binarySource": "managed",
           "probeSessionId": "ses_efe60bccfffel17vEgxfN4egEf"
         }
@@ -418,7 +418,7 @@
       },
       "providerId": "e4c77025-8abf-444c-b172-360873a088ff",
       "addedAt": 1791032344646,
-      "apiKeyKeychainId": "copilot-vdc464587-provider-e4c77025-8abf-444c-b172-360873a088ff"
+      "apiKeyKeychainId": "copilot-vdc464587-provider-ollama-cloud-api-key"
     }
   },
   "configuredModels": [
@@ -566,15 +566,27 @@
         "id": "ollama/qwen2.5:7b",
         "displayName": "ollama/qwen2.5:7b"
       },
-      "configuredModelId": "bef55e37-f02b-45de-95b0-773c037e2e91",
-      "configuredAt": 1794425173910
+      "configuredModelId": "5b0483a5-fba3-44bf-93a2-0a40ff409c83",
+      "configuredAt": 1794425424416
     }
   ],
   "backends": {
     "opencode": {
       "enabledModels": [
         "1fd1a275-46c9-4648-9f0b-d96c228765f9",
-        "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b"
+        "6a22e5d4-ad33-40fc-95c3-26d2e1cebf3b",
+        "5b0483a5-fba3-44bf-93a2-0a40ff409c83",
+        "ff033bfa-a2ea-4930-9d2b-1f7cf808e4d4",
+        "c5b987ef-d756-45c4-8fa8-98a376af9a99",
+        "a96c1d18-b9c5-43c2-8afb-97d54c3b6419",
+        "5691568c-d588-489e-8347-658b83d434b0",
+        "0d4a38fe-44bd-4d56-a3dd-26de695daf85",
+        "c63022f6-b197-476d-bab9-1bd1a8dc3c38",
+        "a4a2da8e-d68d-4e2e-a8bc-f3db2b407cab",
+        "5586f5c6-cd58-4c45-9cfc-027c87339557",
+        "4a6fa62f-ff17-4b1e-8626-eedb71c85b6b",
+        "9a053ad8-fbd1-471a-b007-78028a46b87c",
+        "904cd108-30fb-4c9d-8632-1d8590dce826"
       ]
     },
     "chat": {
@@ -732,7 +744,11 @@
       "minimax-m3"
     ]
   },
+  "connectors": [],
+  "customConnectors": [],
+  "autoAddActiveContentToContext": true,
+  "docProcessorBackend": "plus",
   "miyoConnectionMode": "local",
   "_keychainVaultId": "dc464587",
-  "settingsVersion": 14
+  "settingsVersion": 16
 }
