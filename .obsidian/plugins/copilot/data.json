@@ -527,20 +527,38 @@
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
-        "id": "opencode/crouton-alpha-free",
-        "displayName": "opencode/Crouton Alpha Free"
+        "id": "opencode/iceman-free",
+        "displayName": "opencode/Iceman Free"
       },
-      "configuredModelId": "d04dff4a-557e-4863-a701-b67ebc799ee0",
-      "configuredAt": 1793965100508
+      "configuredModelId": "904cd108-30fb-4c9d-8632-1d8590dce826",
+      "configuredAt": 1794423197253
     },
     {
       "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
       "info": {
-        "id": "opencode/pulse-alpha-free",
-        "displayName": "opencode/Pulse Alpha Free"
+        "id": "opencode/inkling-2-small-free",
+        "displayName": "opencode/Inkling 2 Small Free"
       },
-      "configuredModelId": "cd123f30-acfe-4fe9-8d5c-2c693b104f7c",
-      "configuredAt": 1793965100515
+      "configuredModelId": "5586f5c6-cd58-4c45-9cfc-027c87339557",
+      "configuredAt": 1794423197282
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "opencode/longcat-2.5-free",
+        "displayName": "opencode/LongCat 2.5 Free"
+      },
+      "configuredModelId": "a4a2da8e-d68d-4e2e-a8bc-f3db2b407cab",
+      "configuredAt": 1794423197291
+    },
+    {
+      "providerId": "43f8109f-d654-4f1e-9bce-e93c27733111",
+      "info": {
+        "id": "opencode/minimax-m3.1-flash-free",
+        "displayName": "opencode/MiniMax M3.1 Flash Free"
+      },
+      "configuredModelId": "c63022f6-b197-476d-bab9-1bd1a8dc3c38",
+      "configuredAt": 1794423197308
     }
   ],
   "backends": {
