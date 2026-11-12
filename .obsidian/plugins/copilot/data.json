@@ -169,15 +169,6 @@
   },
   "configuredModels": [
     {
-      "configuredModelId": "6f758b05-e4c1-45d6-93df-137ab139c148",
-      "providerId": "bcbefaab-91b3-4082-affa-b4d0cb2c1e66",
-      "info": {
-        "id": "qwen2.5:7b",
-        "displayName": "qwen2.5:7b"
-      },
-      "configuredAt": 1794436041836
-    },
-    {
       "providerId": "c87870ff-1790-466a-84a9-d8692f7492d9",
       "info": {
         "id": "opencode/beam-free",
@@ -293,6 +284,15 @@
       },
       "configuredModelId": "91e0486b-17f1-492c-a56b-853ac5e89737",
       "configuredAt": 1794515237679
+    },
+    {
+      "configuredModelId": "6f758b05-e4c1-45d6-93df-137ab139c148",
+      "providerId": "bcbefaab-91b3-4082-affa-b4d0cb2c1e66",
+      "info": {
+        "id": "qwen2.5:7b",
+        "displayName": "qwen2.5:7b"
+      },
+      "configuredAt": 1794436041836
     }
   ],
   "backends": {

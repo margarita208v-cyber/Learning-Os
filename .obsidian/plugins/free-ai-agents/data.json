@@ -7,7 +7,7 @@
   "doors": [],
   "customDefs": [],
   "enabledModels": [
-    "auto"
+    "riemann:amd/Qwen3.8-Flash-Next"
   ],
   "testMode": false,
   "autoDefaulted": true,
