@@ -150,6 +150,19 @@
       "providerId": "ffe1837b-2d36-46ca-b39f-52a9e9bef379",
       "addedAt": 1794435459717,
       "apiKeyKeychainId": null
+    },
+    "bcbefaab-91b3-4082-affa-b4d0cb2c1e66": {
+      "providerType": "openai-compatible",
+      "displayName": "Ollama",
+      "baseUrl": "http://localhost:11434/v1",
+      "enableCors": false,
+      "requiresApiKey": false,
+      "origin": {
+        "kind": "byok"
+      },
+      "providerId": "bcbefaab-91b3-4082-affa-b4d0cb2c1e66",
+      "addedAt": 1794436041828,
+      "apiKeyKeychainId": "copilot-vdc464587-provider-ollama-api-key"
     }
   },
   "configuredModels": [
@@ -260,6 +273,15 @@
       },
       "configuredModelId": "eb0de443-7fb9-4ace-a150-efeaaab8eb31",
       "configuredAt": 1794435459769
+    },
+    {
+      "configuredModelId": "6f758b05-e4c1-45d6-93df-137ab139c148",
+      "providerId": "bcbefaab-91b3-4082-affa-b4d0cb2c1e66",
+      "info": {
+        "id": "qwen2.5:7b",
+        "displayName": "qwen2.5:7b"
+      },
+      "configuredAt": 1794436041836
     }
   ],
   "backends": {
@@ -267,7 +289,13 @@
       "enabledModels": [
         "0a9f1b86-96aa-4856-b3cc-7ced4f486299",
         "960abd1c-f7e8-4fe3-bf37-58f1321b545c",
-        "373ce5cb-fb35-454c-a03e-8d2fd8d2b04d"
+        "373ce5cb-fb35-454c-a03e-8d2fd8d2b04d",
+        "6f758b05-e4c1-45d6-93df-137ab139c148"
+      ]
+    },
+    "chat": {
+      "enabledModels": [
+        "6f758b05-e4c1-45d6-93df-137ab139c148"
       ]
     }
   },
