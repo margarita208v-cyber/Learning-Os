@@ -282,6 +282,15 @@
         "displayName": "qwen2.5:7b"
       },
       "configuredAt": 1794436041836
+    },
+    {
+      "providerId": "ffe1837b-2d36-46ca-b39f-52a9e9bef379",
+      "info": {
+        "id": "ollama/qwen2.5:7b",
+        "displayName": "ollama/qwen2.5:7b"
+      },
+      "configuredModelId": "63eddad2-61bf-42a1-9ce6-ed70942d894f",
+      "configuredAt": 1794509814142
     }
   ],
   "backends": {
