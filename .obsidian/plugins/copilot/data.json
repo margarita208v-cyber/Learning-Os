@@ -101,9 +101,7 @@
     "byok": {},
     "activeBackend": "opencode",
     "backends": {
-      "opencode": {
-        "defaultModel": null
-      }
+      "opencode": {}
     },
     "debugFullFrames": true,
     "offerFeedbackCards": true,
@@ -178,15 +176,6 @@
         "displayName": "qwen2.5:7b"
       },
       "configuredAt": 1794436041836
-    },
-    {
-      "providerId": "c87870ff-1790-466a-84a9-d8692f7492d9",
-      "info": {
-        "id": "ollama/qwen2.5:7b",
-        "displayName": "ollama/qwen2.5:7b"
-      },
-      "configuredModelId": "39d8038b-47e2-4504-8710-8e163ef2e7c5",
-      "configuredAt": 1794512732193
     },
     {
       "providerId": "c87870ff-1790-466a-84a9-d8692f7492d9",
@@ -300,7 +289,6 @@
   "backends": {
     "opencode": {
       "enabledModels": [
-        "39d8038b-47e2-4504-8710-8e163ef2e7c5",
         "40808db5-9231-42ad-80f0-2a612188f73d",
         "85181bb1-e293-44fe-9af0-b927ea8e9b09"
       ]

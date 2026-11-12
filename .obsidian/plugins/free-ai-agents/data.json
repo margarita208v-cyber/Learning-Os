@@ -1,0 +1,29 @@
+{
+  "saveChats": true,
+  "rememberKeys": true,
+  "version": 1,
+  "keys": {},
+  "remember": {},
+  "doors": [],
+  "customDefs": [],
+  "enabledModels": [
+    "auto"
+  ],
+  "testMode": false,
+  "autoDefaulted": true,
+  "allowEval": false,
+  "voiceTyping": true,
+  "voiceTouched": false,
+  "voiceChoice": "riemann-stt",
+  "effort": {},
+  "jinaKey": "",
+  "deviceId": "b3aa1f2b-1d7e-485f-b63d-b2db1e5141fa",
+  "approvalMode": "risky",
+  "dismissedUpdate": "",
+  "chatFontSize": 13,
+  "sttEnabled": true,
+  "sttUrl": "https://stt.usefree.space",
+  "sttDeviceKey": "",
+  "connectors": [],
+  "autoSendPrompts": false
+}
