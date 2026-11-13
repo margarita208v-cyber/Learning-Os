@@ -7,7 +7,7 @@
   "doors": [],
   "customDefs": [],
   "enabledModels": [
-    "riemann:amd/Qwen3.8-Flash-Next"
+    "auto"
   ],
   "testMode": false,
   "autoDefaulted": true,
@@ -25,5 +25,5 @@
   "sttUrl": "https://stt.usefree.space",
   "sttDeviceKey": "",
   "connectors": [],
-  "autoSendPrompts": false
+  "autoSendPrompts": true
 }
