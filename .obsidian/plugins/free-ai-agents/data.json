@@ -8,7 +8,7 @@
   "doors": [],
   "customDefs": [],
   "enabledModels": [
-    "auto"
+    "riemann:inception/mercury-3"
   ],
   "testMode": false,
   "autoDefaulted": true,
@@ -17,7 +17,7 @@
   "voiceTouched": false,
   "voiceChoice": "riemann-stt",
   "effort": {
-    "riemann:inception/mercury-3": "high"
+    "riemann:inception/mercury-3": "instant"
   },
   "jinaKey": "",
   "deviceId": "b3aa1f2b-1d7e-485f-b63d-b2db1e5141fa",
