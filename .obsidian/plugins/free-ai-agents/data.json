@@ -1,6 +1,7 @@
 {
   "saveChats": true,
   "rememberKeys": true,
+  "telemetry": true,
   "version": 1,
   "keys": {},
   "remember": {},
@@ -18,12 +19,15 @@
   "effort": {},
   "jinaKey": "",
   "deviceId": "b3aa1f2b-1d7e-485f-b63d-b2db1e5141fa",
+  "firstModelLogged": true,
   "approvalMode": "risky",
   "dismissedUpdate": "",
+  "updateNudgeDay": "",
   "chatFontSize": 13,
   "sttEnabled": true,
   "sttUrl": "https://stt.usefree.space",
   "sttDeviceKey": "",
+  "deviceKey": "dk_z3dJPmW-X5odW_brrGxPvOR8t8i_ppVm5bs5edzUHQ8",
   "connectors": [],
   "autoSendPrompts": true
 }
