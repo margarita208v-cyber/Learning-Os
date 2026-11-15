@@ -16,14 +16,16 @@
   "voiceTyping": true,
   "voiceTouched": false,
   "voiceChoice": "riemann-stt",
-  "effort": {},
+  "effort": {
+    "riemann:inception/mercury-3": "high"
+  },
   "jinaKey": "",
   "deviceId": "b3aa1f2b-1d7e-485f-b63d-b2db1e5141fa",
   "firstModelLogged": true,
   "approvalMode": "risky",
   "dismissedUpdate": "",
   "updateNudgeDay": "",
-  "chatFontSize": 13,
+  "chatFontSize": 11,
   "sttEnabled": true,
   "sttUrl": "https://stt.usefree.space",
   "sttDeviceKey": "",
