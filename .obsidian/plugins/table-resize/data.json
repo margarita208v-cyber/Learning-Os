@@ -1,0 +1,13 @@
+{
+  "enableResizer": true,
+  "minColumnWidth": 50,
+  "maxColumnWidth": 800,
+  "saveWidths": true,
+  "tableWidths": {
+    "wiki/glossary.md-idx0-5-_|______|______|______________|______|": {
+      "0": 50,
+      "1": 92,
+      "2": 96
+    }
+  }
+}
