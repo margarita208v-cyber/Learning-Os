@@ -8,7 +8,7 @@
   "doors": [],
   "customDefs": [],
   "enabledModels": [
-    "riemann:inception/mercury-3"
+    "auto"
   ],
   "testMode": false,
   "autoDefaulted": true,
